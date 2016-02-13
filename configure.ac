@@ -16,6 +16,8 @@ AC_SUBST([PG_CPPFLAGS])
 AC_SUBST([PG_LDFLAGS])
 AC_SUBST([PG_LIBS])
 AC_PROG_CC
+AC_PROG_CC_C99
+test "_$ac_cv_prog_cc_c99" != _no || AC_MSG_ERROR([compiler does not support C99])
 AM_PROG_AR
 AC_PROG_LIBTOOL
 LT_INIT
