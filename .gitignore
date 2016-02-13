@@ -1,5 +1,3 @@
-Makefile
-Makefile.in
 /aclocal.m4
 /autom4te.cache/
 /compile
@@ -8,6 +6,7 @@ Makefile.in
 /config.status
 /config.sub
 /configure
+/depcomp
 /install-sh
 /libtool
 /ltmain.sh
@@ -17,5 +16,11 @@ Makefile.in
 /m4/ltversion.m4
 /m4/lt~obsolete.m4
 /missing
+/stamp-h1
 Makefile
 Makefile.in
+.deps/
+.libs/
+*.o
+*.la
+*.lo
