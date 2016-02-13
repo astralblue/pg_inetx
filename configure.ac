@@ -1,4 +1,4 @@
-AC_INIT([pg_inet], [0.1], [astralblue@gmail.com])
+AC_INIT([pg_inetx], [0.1], [astralblue@gmail.com])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 AC_CONFIG_MACRO_DIRS([m4])
 AX_LIB_POSTGRESQL
