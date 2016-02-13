@@ -3,6 +3,7 @@ AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 AC_CONFIG_MACRO_DIRS([m4])
 AX_LIB_POSTGRESQL
 test -n "$POSTGRESQL_VERSION" || AC_MSG_ERROR([PostgreSQL is not found])
+CC=`$PG_CONFIG --cc`
 PG_INCLUDEDIR_SERVER=`$PG_CONFIG --includedir-server`
 PG_PKGLIBDIR=`$PG_CONFIG --pkglibdir`
 PG_CFLAGS=`$PG_CONFIG --cflags`
