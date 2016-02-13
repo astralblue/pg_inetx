@@ -20,5 +20,6 @@ AC_PROG_LIBTOOL
 LT_INIT
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile
-		 src/Makefile])
+		 src/Makefile
+		 src/inetx.sql])
 AC_OUTPUT
