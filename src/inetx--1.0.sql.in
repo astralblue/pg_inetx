@@ -1,3 +1,6 @@
+-- complain if script is sourced in psql, rather than via CREATE EXTENSION
+\echo Use "CREATE EXTENSION inetx" to load this file. \quit
+
 CREATE OR REPLACE FUNCTION macaddr_to_ipv6_interface_id(IN mac macaddr)
 	RETURNS inet
 	LANGUAGE C
