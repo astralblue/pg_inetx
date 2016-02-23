@@ -3,25 +3,25 @@ CREATE OR REPLACE FUNCTION macaddr_to_ipv6_interface_id(IN mac macaddr)
 	LANGUAGE C
 	IMMUTABLE
 	STRICT
-	AS 'ipaddr';
+	AS 'MODULE_PATHNAME';
 
 CREATE OR REPLACE FUNCTION ipv4_to_ipv6to4(IN ipv4 inet)
 	RETURNS inet
 	LANGUAGE C
 	IMMUTABLE
 	STRICT
-	AS 'ipaddr';
+	AS 'MODULE_PATHNAME';
 
 CREATE OR REPLACE FUNCTION ipv6to4_to_ipv4(IN ipv6to4 inet)
 	RETURNS inet
 	LANGUAGE C
 	IMMUTABLE
 	STRICT
-	AS 'ipaddr';
+	AS 'MODULE_PATHNAME';
 
 CREATE OR REPLACE FUNCTION a6_compose(IN prefix inet, IN suffix inet)
 	RETURNS inet
 	LANGUAGE C
 	IMMUTABLE
 	STRICT
-	AS 'ipaddr';
+	AS 'MODULE_PATHNAME';
