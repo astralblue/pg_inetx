@@ -27,5 +27,6 @@ LT_INIT
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile
 		 src/Makefile
+		 src/inetx.control
 		 src/inetx--1.0.sql])
 AC_OUTPUT

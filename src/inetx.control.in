@@ -1,0 +1,5 @@
+# inetx extension
+comment = 'Utility functions for inet/cidr/macaddr types'
+default_version = '1.0'
+module_pathname = '@PG_LIBDIR@/inetx'
+relocatable = true
