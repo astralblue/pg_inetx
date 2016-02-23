@@ -1,5 +1,3 @@
-BEGIN;
-
 CREATE OR REPLACE FUNCTION macaddr_to_ipv6_interface_id(IN mac macaddr)
 	RETURNS inet
 	LANGUAGE C
@@ -27,5 +25,3 @@ CREATE OR REPLACE FUNCTION a6_compose(IN prefix inet, IN suffix inet)
 	IMMUTABLE
 	STRICT
 	AS 'ipaddr';
-
-COMMIT;
